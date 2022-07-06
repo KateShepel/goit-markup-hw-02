@@ -1,6 +1,67 @@
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* белый #FFFFFF */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+/* вторичный цвет текста, так как их не много #212121 (все заголовки) */
+/* основной цвет текста, тот которого больше всего на странице #757575 */
+/* белый #FFFFFF (первая секция с крупным текстом)*/
 /* чёрный #000000 */
 /* акцент синий #2196F3 */
-/*  */
+
+/* цвет фона #E5E5E5 */
+/* вторичный цвет фона светлый #F5F4FA */
+/* вторичный цвет фона тёмный #2F303A */
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+.logo {
+  color: #000000;
+}
+.logo > span {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+/* Шапка сайта */
+/* Site nav */
+
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  color: var(--primary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+}
