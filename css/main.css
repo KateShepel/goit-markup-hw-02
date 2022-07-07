@@ -1,0 +1,29 @@
+/* Hero */
+.hero {
+  background-color: var(--bg-dark-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Team */
+.team {
+  background-color: var(--bg-light-color);
+}

@@ -1,34 +1,38 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bg-color: #ffffff;
-}
-
 /* вторичный цвет текста, так как их не много #212121 (все заголовки) */
 /* основной цвет текста, тот которого больше всего на странице #757575 */
 /* белый #FFFFFF (первая секция с крупным текстом)*/
 /* чёрный #000000 */
 /* акцент синий #2196F3 */
 
-/* цвет фона #E5E5E5 */
 /* вторичный цвет фона светлый #F5F4FA */
 /* вторичный цвет фона тёмный #2F303A */
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #0000000;
+  --bg-dark-color: #2f303a;
+  --bg-light-color: #f5f4fa;
+}
+
 body {
-  background-color: #e5e5e5;
+  background-color: var(--primery-white-color);
   color: var(--primary-text-color);
 }
 .logo {
-  color: #000000;
+  color: var(--primary-black-color);
 }
 .logo > span {
   color: var(--accent-color);
 }
 
+/* Отключает символьную точку в списке */
 ul {
   list-style: none;
 }
+
 /* Шапка сайта */
 /* Site nav */
 
@@ -40,6 +44,10 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav a.current {
+  color: var(--accent-color);
+}
+
 .contacts a {
   color: var(--primary-text-color);
 }
@@ -48,20 +56,16 @@ ul {
   color: var(--accent-color);
 }
 
-/* Hero */
-.hero {
-  background-color: #2f303a;
+/* Footer */
+.footer {
+  background-color: var(--bg-dark-color);
 }
-
-.hero-title {
-  color: #ffffff;
+.footer.address {
+  color: var(--primary-white-color);
 }
-
-/* Section */
-.section-title {
-  color: var(--title-text-color);
+.footer.address .link {
+  color: rgba(255, 255, 255, 0.6);
 }
-
-/* Button */
-.button {
+.footer .logo {
+  color: var(--primary-white-color);
 }
