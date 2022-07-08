@@ -1,0 +1,14 @@
+button {
+  color: var(--title-text-color);
+  background-color: var(--bg-light-color);
+}
+
+button.nav:hover,
+button.nav:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+h3 {
+  color: var(--title-text-color);
+}
