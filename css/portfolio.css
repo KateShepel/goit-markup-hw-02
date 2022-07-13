@@ -1,6 +1,10 @@
 button {
   color: var(--title-text-color);
   background-color: var(--bg-light-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 button.nav:hover,
@@ -9,7 +13,16 @@ button.nav:focus {
   background-color: var(--accent-color);
 }
 
-h2 {
+h3 {
   color: var(--title-text-color);
   letter-spacing: 0.06em;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.19;
 }

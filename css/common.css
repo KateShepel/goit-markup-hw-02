@@ -32,6 +32,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo > span {
   color: var(--accent-color);
@@ -45,12 +46,17 @@ ul {
 /* Шапка сайта */
 /* Site nav */
 
-.site-nav a {
-  color: var(--title-text-color);
+.site-nav,
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.site-nav a {
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -63,6 +69,7 @@ ul {
 
 .contacts a {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -78,6 +85,7 @@ ul {
 }
 .footer.address .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer .logo {
   color: var(--primary-white-color);
