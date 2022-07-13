@@ -23,6 +23,8 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  /* TODO: add base 14px font size */
+  /* TODO: add base 24px/14px ilne height */
 }
 /* Logo */
 .logo {
@@ -90,3 +92,5 @@ ul {
 .footer .logo {
   color: var(--primary-white-color);
 }
+
+/* TODO: add cursor pointer property button {cursor: pointer;} */
