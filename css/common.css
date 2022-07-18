@@ -21,6 +21,8 @@ body {
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
 
+  font-size: 14px;
+  line-height: 1.71;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   /* TODO: add base 14px font size */
@@ -93,4 +95,7 @@ ul {
   color: var(--primary-white-color);
 }
 
+button {
+  cursor: pointer;
+}
 /* TODO: add cursor pointer property button {cursor: pointer;} */
